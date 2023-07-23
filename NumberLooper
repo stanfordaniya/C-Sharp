@@ -1,0 +1,41 @@
+using System;
+
+class Program {
+  public static void Main (string[] args) {
+    int choice;
+    int startNum;
+    int endNum;
+    
+  Console.WriteLine("What loop do you want to use?");
+   Console.WriteLine("1) A loop that might run zero or more times\n2) A loop that will always run at least once\n3) A loop with a predetermined start and end");
+    Console.Write("Your choice: ");
+   choice = Convert.ToInt32(Console.ReadLine());
+  Console.Write("What’s your start number? ");
+  startNum = Convert.ToInt32(Console.ReadLine());
+    
+    if (choice == 1){
+    Console.Write("Counting: ");
+    while(startNum >= 0){
+      Console.Write("{0},",startNum);
+      startNum--;
+      }
+    }
+
+    if(choice == 2){
+      Console.Write("Counting: ");
+      do{
+        Console.Write("{0},",startNum);
+        startNum--;
+      }while(startNum >= 0);
+    }
+    if(choice == 3){
+      Console.Write("What's your end number?");
+      endNum = Convert.ToInt32(Console.ReadLine());
+      Console.Write("Counting: ");
+      for(int i = startNum; i >= endNum; i--){
+        Console.Write("{0},",i);
+      }
+    }
+    
+  }
+}
