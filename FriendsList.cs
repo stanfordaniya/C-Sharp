@@ -1,5 +1,5 @@
 using System;
-class Assignment5A
+class Program
 {
     public static void Main(string[] args)
     {
