@@ -1,4 +1,4 @@
-class Assignment3B
+class Program
 {
     public static void Main(string[] args)
     {
