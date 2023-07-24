@@ -1,6 +1,6 @@
 using System;
 
-class Assignment1B {
+class Program {
   public static void Main (string[] args) {
     Console.WriteLine ("Enter your average lab grade: ");
     int labGrade = Convert.ToInt32(Console.ReadLine());
