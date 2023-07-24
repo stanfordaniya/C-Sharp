@@ -1,4 +1,4 @@
-class Assignment2C
+class Program
 {
     public static void Main(string[] args)
     {
