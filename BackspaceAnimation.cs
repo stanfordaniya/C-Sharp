@@ -1,6 +1,6 @@
 using System;
 
-class Assignment4C
+class Program
 {
     public static void Main(string[] args)
     {
